@@ -1,0 +1,37 @@
+/** FORM DASHBOARD **/
+.admin-form{
+    padding:2em 0;
+    .form-group{
+        margin-bottom: 1.5em;
+        label{
+            display: inline-block;
+            font-family: OpenSansSemiBold;
+        }
+        .form-control{
+            border:1px solid #ced4da;
+            @include border-radius(4px 4px 4px 4px);
+        }
+    }
+    .radio-group{
+        margin:0.5em 0;
+        .custom-radio{
+            position: relative;
+            display:block;
+            padding-left:1.5em;
+            .custom-control-input{
+                position:absolute;
+                width: auto;
+                left:0;
+                top: 9px;
+            }
+            .custom-control-label{
+                position:relative;
+            }
+        }
+    }
+    .mdeditor_toolbar button{
+        padding:0;
+    }
+    
+}
+

@@ -1,0 +1,35 @@
+/* 
+    Created on : 25 janv. 2019, 12:45:51
+    Author     : SelMaK
+*/
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/opensans/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/opensans/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(../fonts/opensans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/opensans/OpenSans-Light.ttf);
+}
+
+@import "variables";
+@import "navadmin";
+@import "theme";
+@import "table";
+@import "btn";
+@import "label";
+@import "header";
+@import "ribbon";
+@import "base";
+@import "card";
+@import "main";
+@import "section";
+@import "forms";
+@import "mediaquery";

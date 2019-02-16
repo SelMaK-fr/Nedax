@@ -1,0 +1,62 @@
+/** NAV ADMIN **/
+
+#dashboard .nav--admin{
+    background-color: #f6f6f6;
+    color:$blue;
+    line-height:4em;
+}
+#dashboard .navAdmin{
+    ul li:hover > ul{
+        display:block;
+    }
+    ul{
+        position:relative;
+    }
+    li{
+        display: inline-block;
+        font-family: OpenSansSemiBold;
+        padding:0 1em;
+        a{
+            color:#5b626b;
+            text-transform: none;
+            i{
+                background-color: #313b93;
+                width: 25px;
+                height: 25px;
+                vertical-align: middle;
+                @include border-radius(3px 3px 3px 3px);
+                
+            }
+            span{
+                display: inline-block;
+                line-height: 1.5;
+            }
+        }
+        ul.item-sub-menu{
+            display:none;
+            position:absolute;
+            background-color:$primary;
+            li{
+                width: 200px;
+                display: block;
+                line-height: 3;
+                padding:0;
+                a{
+                    color:$white;
+                    display:block;
+                    padding:0 1em;
+                    &:hover{
+                        background-color:$white;
+                        color:$primary;
+                    }
+                }
+            }
+        }
+    }
+}
+#dashboard .width--sidebar{
+    .header-logo figure{
+        margin-left: 2em;
+    }
+    position:relative;
+}

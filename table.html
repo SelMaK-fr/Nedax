@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Table - Nedax Dashboard Template</title>
+<!-- meta -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+<!-- START::CSS_KNACSS (vendor) -->
+<link rel="stylesheet" href="vendor/knacss/css/knacss.css" type="text/css" media="screen">
+<!-- START::CSS_TAGS_INPUT -->
+<link rel="stylesheet" href="assets/css/tagsInput/jquery.tagsinput.css">
+<!-- START::CSS_MDEDITOR -->
+<link rel="stylesheet" href="assets/js/library/markdown/dist/mdeditor.css">
+<!-- START::CSS_APP_FRAMEWORK -->
+<link rel="stylesheet" href="assets/css/app.css">
+<!-- START::CSS_LAYOUT_THEME_ADMIN -->
+<link rel="stylesheet" href="assets/css/layout.css" type="text/css" media="screen">
+</head>
+<body id="dashboard">
+<div class="site-wrapper">
+<div id="wrapper" class="wrapper-pusher">
+    <header class="header--nav bshadow fixed-top">
+        <div class="container-fluid">
+            <div class="flex-container">
+        <div class="header-logo w200p">
+            <a href="#" class="header--icon" id="header--icon"></a>
+            <figure><img src="assets/img/logo_pro.png" alt="Logo du panel" title="Logo du panel"></figure>
+        </div>
+                <div class="txtright item-fluid">
+                    <a class="btn btn-primary" href="#" title="My website"><i class="fas fa-globe"></i> My Website</a>
+                    <a class="btn btn-danger" href="#" title="Logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav--admin">
+            <div class="container-fluid">
+                <nav class="navAdmin item-fluid">
+                    <ul>
+                        <li><a href="#" title="Home"><i class="fas fa-tachometer-alt"></i> Home</a></li>
+                        <li><a href="#" title="Forms"><i class="fas fa-cogs"></i> Forms <i class="fas fa-sort-down"></i></a>
+                            <ul class="item-sub-menu">
+                                <li><a href="#" title="Basic Form">Horizontal Form</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" title="Cards"><i class="fas fa-greater-than-equal"></i> Cards </a></li>
+                        <li><a href="#" title="UI Elements"><i class="fas fa-briefcase"></i> UI Elements <span class="label label-success">new</span></a></li>
+                        <li><a href="#" title="Pages"><i class="fas fa-users"></i> Pages <i class="fas fa-sort-down"></i></a>
+                            <ul class="item-sub-menu">
+                                <li><a href="#" title="Error 404">404</a></li>
+                                <li><a href="#" title="Blank page">Blank</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!-- Nedax:: start var content -->
+<main class="app-content">
+      <section class="section--admin admin-header">
+        <div class="container-fluid">
+            <div class="grid-2">
+                <div class="col">
+                    <h4>Table</h4>
+                </div>
+                <div class="col txtright">
+                    <ul>
+                        <li>Home</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="section--admin">
+        <div class="container-fluid">
+            <div class="admin-content">
+                <!-- -->
+                <div class="grid-12-small-4 has-gutter-xl">
+                    <div class="col-8-small-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="grid-2">
+                                <div class="left-title">
+                                 <h4 class="header-title">Basic Table</h4>   
+                                </div>
+                                <div class="right-options txtright">
+                                    <a href="#" class="label label-default"><i class="fas fa-trash"></i> Trash</a>  
+                                </div>
+                            </div>
+                                <table class="table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th style="width:45px;" scope="col">#</th>
+                                        <th scope="col" class="w350p">Title</th>
+                                        <th scope="col">Statut</th>
+                                        <th scope="col">Lvl</th>
+                                        <th scope="col">Category</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Rogatus ad ultimum admissusque</td>
+                                        <td><span class="label label-success">Finish</span></td>
+                                        <td><span class="label label-danger">Error</span></td>
+                                        <td>Garage</td>
+                                        <td>3 weeks ago</td>
+                                        <td><a class="btn-table btn-primary" href="#" title="Edit"><i class="fas fa-pencil-alt"></i> Edit</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Alii summum decus in carruchis</td>
+                                        <td><span class="label label-success">Finish</span></td>
+                                        <td><span class="label label-danger">Error</span></td>
+                                        <td>Others</td>
+                                        <td>12 months ago</td>
+                                        <td><a class="btn-table btn-primary" href="#" title="Edit"><i class="fas fa-pencil-alt"></i> Edit</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Auxerunt haec vulgi sordidioris</td>
+                                        <td><span class="label label-success">Finish</span></td>
+                                        <td><span class="label label-danger">Error</span></td>
+                                        <td>House</td>
+                                        <td>12 months ago</td>
+                                        <td><a class="btn-table btn-primary" href="#" title="Edit"><i class="fas fa-pencil-alt"></i> Edit</a></td>
+                                    </tr>                                
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                    </div>  
+                    </div>
+                    <div class="col-4-small-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="header-title">Table Responsive</h4>
+                            <p>Responsive CSS</p>
+                        </div>
+                        
+                    </div>  
+                    </div>
+                </div>
+                <!-- --> 
+            </div>
+        </div>
+    </section></main>
+<!-- Nedax:: end var content --> 
+<!-- Nedax:: start Copyright -->
+<footer class="footer--app txtcenter">
+    <div class="container">
+        2019 - Nedax (Dashboard). Free Template Dasboard
+    </div>
+</footer>
+<!-- Nedax:: end Copyright -->
+<div class="site-cache" id="site--cache"></div>
+</div> <!-- /wrapper -->      
+</div> <!-- /site-wrapper -->
+<!-- END::JS_CUSTOM -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="assets/js/jquery.nnk.notify.js"></script>
+<script src="assets/js/mustache.js"></script>
+<!-- Nedax:: start GetFlashes -->
+<script>
+      $('body').notif({title:'Notification', content: '', cls:'', timeout:4000});
+</script>
+
+<!-- Nedax:: end GetFlashes -->
+
+<!-- BEGIN: Tabs Pepin -->
+<script type="text/javascript" src="assets/js/tabs.js"></script>
+<!-- END: Tabs Pepin -->
+<script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!-- BEGIN: JScolor -->
+<script src="assets/js/jscolor.js"></script>
+<!-- END: JScolor -->
+<!-- BEGIN: TAGINPUT -->
+<script src="assets/js/library/plugins/tagsInput/jquery.tagsinput.js"></script>
+<script src="assets/js/library/plugins/init.plugin.js"></script>
+<!-- END: TAGINPUT -->
+<script src="assets/js/library/markdown/dist/mdeditor.min.js"></script>
+<script>
+      var md = new MdEditor('#mdeditor', {
+        preview: false
+      });
+</script>
+<script src="assets/js/library/plugins/tooltipster/js/tooltipster.bundle.min.js"></script>
+<!-- COOKIE ALERT -->
+</body>
+</html>

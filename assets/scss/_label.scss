@@ -1,0 +1,31 @@
+/** LABEL DASHBOARD **/
+.label {
+    font-family: "OpenSansSemibold";
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    @include border-radius(3px 3px 3px 3px);
+}
+.label-secondary{
+    background-color:$secondary;
+    color:$white;
+}
+.label-primary{
+    background-color:$primary;
+    color:$white;
+}
+.label-success{
+    background-color:$success;
+    color:$white;
+}
+.label-warning{
+    background-color:$warning;
+    color:$white;
+}
+.label-danger{
+    background-color:$danger;
+    color:$white;
+}
+

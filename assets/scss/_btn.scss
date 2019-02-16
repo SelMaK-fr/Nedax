@@ -1,0 +1,51 @@
+/** BTN DASHBOARD **/
+.btn{
+    font-family: OpenSansSemiBold;
+    @include border-radius(4px 4px 4px 4px);
+}
+.btn-custom{
+    padding:1em 0;
+}
+.btn-success{
+    background-color:$success;
+    border-color: $success;
+    color:$white;
+    &:hover{
+        background-color:$successHover;
+        color:$white;
+    }
+}
+.btn-table{
+    border-width: 1px;
+    border-style:solid;
+}
+.btn-primary{
+    background-color:$primary;
+    color:$white;
+    border-color:$primary;
+    &:hover{
+        background-color:$primaryHover;
+        border-color:$primary;
+        color:$white;
+    }
+}
+.btn-secondary{background-color:$secondary;border-color:$secondary;}
+
+.btn-outline-primary{
+    border-color:$primary;color:$primary;
+    &:hover{
+        background-color:$primary;
+    }
+}
+.btn-danger{
+    background-color:$danger;
+    color:$white;
+    border-color:$danger;
+}
+.btn-outline-danger{
+    border-color:$danger;color:$danger;
+    &:hover{
+        background-color:$danger;
+        color:$white;
+    }
+}

@@ -1,0 +1,125 @@
+/** MEDIA QUERY DASHBOARD **/
+/*------------------------------------
+MEDIA RESPONSIVE MOBILE ADAPT
+-------------------------------------*/
+$menu-width:250px!default;
+
+@media only screen and (max-width:750px) {
+    #dashboard{
+        .header-logo figure{
+            margin-left:2em;
+            float: none;
+        }
+    }
+    .wrapper-pusher, .site-wrapper{
+        height:100%; 
+    }
+    .site-wrapper{
+        overflow:hidden;
+    }
+    .wrapper-pusher{
+        @include transition-duration(0.3s);
+        @include transform(translateX(0px));
+    }
+    .section{
+        padding:0;
+    }
+    .app-content{
+        position: absolute;
+        top:85px;
+        right:0;
+        left:0;
+        bottom:0;
+        padding-top:0 !important;
+        overflow-y:scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+    .header--nav{
+        position: static;
+    }
+    .header--icon{
+        position: relative;
+        display:block;
+        float:left;
+        width:35px;
+        height:50px;
+        
+        cursor: pointer;
+        
+        &:after{
+            content: '';
+            position: absolute;
+            display:block;
+            width:2rem;
+            height:0;
+            top:20px;
+            
+            
+            box-shadow: 0 10px 0 1px $secondary, 0 16px 0 1px $secondary, 0 22px 0 1px $secondary ;
+            
+        }
+        
+    }
+    
+    .socialNetwork{
+        display: none;
+    }
+    .navAdmin{
+        position: absolute;
+        left:0;
+        top:0;
+        bottom:0;
+        background-color:$primary;
+        
+        width:$menu-width;
+        @include transform(translateX($menu-width * -1));
+        
+        /*display: none;*/
+        li{
+            display:block !important;
+            border-bottom:1px solid $primaryHover;
+            width: 100% !important;
+            a{
+                display:block;
+                padding:0 !important;
+                color:$white !important;
+                border: none !important;
+                &:hover{
+                    border:none !important;
+                    color: $primaryHover !important;
+                }
+            }
+        }
+        ul ul{
+            background-color:#1A1F4D !important;
+            position: relative !important;
+            margin-left: -15px;
+            margin-right: -15px;
+            li a{
+                padding:0 1em !important;
+            }
+        }
+
+    }
+
+    .width--sidebar{
+        .site-cache{
+            position: absolute;
+            top: 0;
+            left:0;
+            right:0;
+            bottom:0;
+            background-color: rgba(0, 0, 0, 0.3);
+            
+        }
+        .wrapper-pusher{
+            @include transform(translateX($menu-width)); 
+        }
+       
+    }
+
+}
+
+@media(max-width: 720px){
+    .bottom-footer, footer{display:none;}
+}

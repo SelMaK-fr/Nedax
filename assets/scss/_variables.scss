@@ -1,0 +1,64 @@
+/** MIXIN **/
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-shadow($value){
+    -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    -o-box-shadow: $value;
+    box-shadow: $value;
+}
+
+@mixin transitionBackground($value){
+    -webkit-transition: background-color $value ease-out;
+    -moz-transition: background-color $value ease-out;
+    -o-transition: background-color $value ease-out;
+    transition: background-color $value ease-out;
+}
+
+@mixin transitionBorder($value){
+    -webkit-transition: border-color $value ease-out;
+    -moz-transition: border-color $value ease-out;
+    -o-transition: border-color $value ease-out;
+    transition: border-color $value ease-out;
+}
+@mixin transition-duration($value){
+    -webkit-transition-duration: $value;
+    -moz-transition-duration: $value;
+    -o-transition-duration: $value;
+    transition-duration: $value;
+}
+@mixin transform($value){
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -o-transform: $value;
+    transform: $value;
+}
+
+/** VARIABLES **/
+$primary : #242c6d;
+$primaryHover : #2f398d;
+
+$primaryBis : #f2797c;
+
+$success : #38ada9;
+$successHover : #3FBFBB;
+$secondary : #6c757d;
+$warning : #e67e22;
+$tertiary : #3F464C;
+$quaternary : #555B61;
+$quinary : #94989C;
+$senary : #AAADB0;
+$septenary : #D4D6D7;
+$octonary : #E9EAEB;
+$nonary : #F4F5F5;
+$white : #ffffff;
+$black : #000000;
+$blue : #283179;
+$blueBis : #2980b9;
+$orange: #f2797c;
+$danger : #ec536c;
