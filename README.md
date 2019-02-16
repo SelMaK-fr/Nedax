@@ -1,5 +1,5 @@
 <p align="center">
-<img src="http://s.4cdn.org/image/title/105.gif">
+<img src="http://www.yann-cario.fr/public_html/public/assets/pictures">
 </p>
 
 <p align="center">
