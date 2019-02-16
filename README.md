@@ -1,5 +1,5 @@
 <p align="center">
-<img src="http://www.yann-cario.fr/public_html/public/assets/pictures">
+<img src="http://www.yann-cario.fr/public_html/public/assets/pictures/Dashboard_beta.jpg">
 </p>
 
 <p align="center">
