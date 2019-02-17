@@ -6,6 +6,10 @@
 <img src="https://img.shields.io/badge/KNACSS-framework-green.svg">
 </p>
 
+<p align="center">
+# In development
+</p>
+
 # Nedax Dashboard Template
 
 [ENGLISH]
