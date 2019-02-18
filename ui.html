@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+<head>
+<meta charset="utf-8">
+<title>UI Elements - Nedax Dashboard Template</title>
+<!-- meta -->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+<!-- START::CSS_KNACSS (vendor) -->
+<link rel="stylesheet" href="vendor/knacss/css/knacss.css" type="text/css" media="screen">
+<!-- START::CSS_TAGS_INPUT -->
+<link rel="stylesheet" href="assets/css/tagsInput/jquery.tagsinput.css">
+<!-- START::CSS_MDEDITOR -->
+<link rel="stylesheet" href="assets/js/library/markdown/dist/mdeditor.css">
+<!-- START::CSS_APP_FRAMEWORK -->
+<link rel="stylesheet" href="assets/css/app.css">
+<!-- START::CSS_LAYOUT_THEME_ADMIN -->
+<link rel="stylesheet" href="assets/css/layout.css" type="text/css" media="screen">
+<!-- START::CSS_ATOM_ONE_DARK -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/default.min.css">
+</head>
+<body id="dashboard">
+<div class="site-wrapper">
+<div id="wrapper" class="wrapper-pusher">
+    <header class="header--nav bshadow fixed-top">
+        <div class="container-fluid">
+            <div class="flex-container">
+        <div class="header-logo w200p">
+            <a href="#" class="header--icon" id="header--icon"></a>
+            <figure><img src="assets/img/logo_head.png" alt="Logo du panel" title="Logo du panel"></figure>
+        </div>
+                <div class="txtright item-fluid">
+                    <a class="btn btn-primary" href="#" title="My website"><i class="fas fa-globe"></i> My Website</a>
+                    <a class="btn btn-danger" href="#" title="Logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav--admin">
+            <div class="container-fluid">
+                <nav class="navAdmin item-fluid">
+                    <ul>
+                        <li><a href="index.html" title="Home"><i class="fas fa-tachometer-alt"></i> Home</a></li>
+                        <li><a href="forms.html" title="Forms"><i class="fas fa-cogs"></i> Forms <i class="fas fa-sort-down"></i></a>
+                            <ul class="item-sub-menu">
+                                <li><a href="form-horizontal.html" title="Basic Form">Horizontal Form</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="cards.html" title="Cards"><i class="fas fa-greater-than-equal"></i> Cards & Grid</a></li>
+                        <li><a href="ui.html" title="UI Elements"><i class="fas fa-briefcase"></i> UI Elements <span class="label label-success">new</span></a></li>
+                        <li><a href="#" title="Pages"><i class="fas fa-users"></i> Pages <i class="fas fa-sort-down"></i></a>
+                            <ul class="item-sub-menu">
+                                <li><a href="404.html" title="Error 404">404</a></li>
+                                <li><a href="blank.html" title="Blank page">Blank</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!-- Nedax:: start var content -->
+<main class="app-content">
+      <section class="section--admin admin-header">
+        <div class="container-fluid">
+            <div class="grid-2">
+                <div class="col">
+                    <h4>UI Elements</h4>
+                </div>
+                <div class="col txtright">
+                    <ul>
+                        <li>Home</li>
+                        <li>/</li>
+                        <li>Grid</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- START .cards -->
+    <section class="section--admin">
+        <div class="container-fluid">
+            <div class="admin-content">
+                <!-- START alert -->
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Alert</h4>
+                        <code>_alert.scss</code>
+                        <div class="alert alert-info">alert-info</div>
+                        <div class="alert alert-warning">alert-warning</div>
+                        <div class="alert alert-success">alert-success</div>
+                        <div class="alert alert-danger">alert-danger</div>
+                    </div>
+                </div>
+                <!-- END full card -->
+
+                <!-- Start dual cards -->
+                        <div class="grid-2 has-gutter-l">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                            <h4>Button / btn</h4>
+                                            <code>_btn.scss</code><br><br>
+                                        <p>  
+                                            <a href="#" class="btn btn-primary">Primary</a>
+                                            <a href="#" class="btn btn-secondary">Secondary</a>
+                                            <a href="#" class="btn btn-success">Success</a>
+                                            <a href="#" class="btn btn-danger">Danger</a>
+                                        </p>  
+                                        <p>
+                                            <h6>Small for table</h6>
+                                            <a href="#" class="btn-table btn-primary">Primary</a>
+                                            <a href="#" class="btn-table btn-secondary">Primary</a>
+                                            <a href="#" class="btn-table btn-success">Success</a>
+                                            <a href="#" class="btn-table btn-danger">Danger</a>
+                                        </p>
+                                        <p>
+                                            <h6>Outline</h6>
+                                            <a href="#" class="btn btn-outline btn-primary">Primary</a>
+                                            <a href="#" class="btn btn-outline btn-secondary">Primary</a>
+                                            <a href="#" class="btn btn-outline btn-success">Success</a>
+                                            <a href="#" class="btn btn-outline btn-danger">Danger</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Label</h4>
+                                        <code>_label.scss</code><br><br>
+                                        <p>  
+                                                <span class="label label-primary">Primary</span>
+                                                <span class="label label-secondary">Secondary</span>
+                                                <span class="label label-success">Success</span>
+                                                <span class="label label-danger">Danger</span>
+                                        </p> 
+                                    </div>
+                                </div>
+                                <!-- Progress Bar -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4>Progress Bar</h4>
+                                        <code>_progress.scss</code><br><br>
+                                        <div class="progress">
+                                            <div class="progress-bar primary" style="width:20%"></div>
+                                        </div>
+                                        <div class="progress">
+                                                <div class="progress-bar success" style="width:50%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <!-- END dual cards -->
+            </div>
+        </div>
+    </section>
+    <!-- END .cards -->
+</main>
+<!-- Nedax:: end var content --> 
+<!-- Nedax:: start Copyright -->
+<footer class="footer--app txtcenter">
+    <div class="container">
+        2019 - Nedax (Dashboard). Free Template Dasboard
+    </div>
+</footer>
+<!-- Nedax:: end Copyright -->
+<div class="site-cache" id="site--cache"></div>
+</div> <!-- /wrapper -->      
+</div> <!-- /site-wrapper -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
+</body>
+</html>

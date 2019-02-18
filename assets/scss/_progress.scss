@@ -1,0 +1,24 @@
+ /**
+ * PROGRESS
+ **/
+ .progress {
+    height: 20px;
+    background: $octonary;
+    border-radius: 4px;
+    box-shadow: none;
+    overflow: hidden;
+    font-size: .75rem;
+    display: flex;
+    margin-bottom:0.8em;
+}
+.progress-bar {
+    line-height: 12px;
+    background: $primary;
+    box-shadow: none;
+    &.primary{
+        background: $primary; 
+    }
+    &.success{
+        background: $success;
+    }
+}

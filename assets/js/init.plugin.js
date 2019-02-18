@@ -19,6 +19,23 @@
 
     });
         // END Tagsinput
+
+// MENU
+(function($){
+   
+  $('#header--icon').click(function(e){
+     e.preventDefault();
+     $('body').toggleClass('width--sidebar');
+  });
+  
+  $('#site--cache').click(function(e){
+      $('body').removeClass('with--sidebar');
+  });
+  
+  /***/
+  
+  
+})(jQuery);
         
 // Modal
 const buttons = document.querySelectorAll(`button[data-modal-trigger]`);

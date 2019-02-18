@@ -6,15 +6,9 @@
 <img src="https://img.shields.io/badge/KNACSS-framework-green.svg">
 </p>
 
-<<<<<<< HEAD
 
 # In development
 Nedax is currently under development, the deposit is available but note that the project is not completed.
-=======
-<p align="center">
-# In development
-</p>
->>>>>>> 81649cba98c1056b7eebc41a61945796a59d7283
 
 # Nedax Dashboard Template
 
@@ -71,14 +65,20 @@ Add class `jscolor` to the input
 Nedax is currently in beta phase
 
 ```
-b.1602.19
+b.1802.19
 ```
+
+- Add forms  
+- Change logo  
+- Add Tabs  
+- Add UI Elements  
 
 ## Built With
 
 * [Knacss](https://github.com/alsacreations/KNACSS)
-* [Notification](https://github.com/SelMaK-fr/Notification) - NNK Notify
 * [JS-Markdown-Editor](https://github.com/Grafikart/JS-Markdown-Editor)
+* [JS Color](http://jscolor.com)
+* [Tabs Pepin](https://github.com/alsacreations/pepin/tree/master/tabs)
 
 ## Authors
 

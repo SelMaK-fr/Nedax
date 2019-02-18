@@ -19,10 +19,12 @@
     src: url(../fonts/opensans/OpenSans-Light.ttf);
 }
 
+@import "theme";
 @import "variables";
 @import "navadmin";
-@import "theme";
+@import "progress";
 @import "table";
+@import "alert";
 @import "btn";
 @import "label";
 @import "header";

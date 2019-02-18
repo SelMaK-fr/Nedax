@@ -13,10 +13,6 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
 <!-- START::CSS_KNACSS (vendor) -->
 <link rel="stylesheet" href="vendor/knacss/css/knacss.css" type="text/css" media="screen">
-<!-- START::CSS_TAGS_INPUT -->
-<link rel="stylesheet" href="assets/css/tagsInput/jquery.tagsinput.css">
-<!-- START::CSS_MDEDITOR -->
-<link rel="stylesheet" href="assets/js/library/markdown/dist/mdeditor.css">
 <!-- START::CSS_APP_FRAMEWORK -->
 <link rel="stylesheet" href="assets/css/app.css">
 <!-- START::CSS_LAYOUT_THEME_ADMIN -->
@@ -216,7 +212,27 @@
                     </div>  
                     </div>
                 </div>
-                <!-- --> 
+                <!-- TABS -->
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Tabs</h4>
+                        <code>tabs js-tabs</code>
+                        <div class="tabs js-tabs">
+                                <nav class="tabs-menu">
+                                  <a href="#tab1" class="tabs-menu-link is-active">Salade</a>
+                                  <a href="#tab2" class="tabs-menu-link">Tomate</a>
+                                  <a href="#tab3" class="tabs-menu-link">Oignons</a>
+                                </nav>
+                              
+                                <div class="tabs-content">
+                                  <div id="tab1" class="tabs-content-item">Contenu 1. <br>Lorem Elsass Ipsum mitt picon bière munster du ftomi! Ponchour bisame. Bibbeleskaas jetz rossbolla sech choucroute un schwanz geburtstàg, Chinette dû, ìch bier deppfele schiesser.</div>
+                                  <div id="tab2" class="tabs-content-item">Contenu 2. <br>Flammekueche de knèkes Seppele gal! a hopla geburtstàg, alles fraü Chulia Roberts oder knäckes dûû blottkopf. Noch bredele schissabibala, yeuh e schmutz.</div>
+                                  <div id="tab3" class="tabs-content-item">Contenu 3. <br>E gewurtztraminer doch Carola schneck, schmutz a riesling de chambon eme rucksack Roger dû hopla geiss, jetz Chorchette de Scharrarbergheim.</div>
+                                </div>
+                              </div>
+                    </div>
+                </div> 
+
             </div>
         </div>
     </section></main>
@@ -233,34 +249,12 @@
 </div> <!-- /site-wrapper -->
 <!-- END::JS_CUSTOM -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="assets/js/jquery.nnk.notify.js"></script>
-<script src="assets/js/mustache.js"></script>
-<!-- Nedax:: start GetFlashes -->
-<script>
-      $('body').notif({title:'Notification', content: '', cls:'', timeout:4000});
-</script>
-
-<!-- Nedax:: end GetFlashes -->
-
 <!-- BEGIN: Tabs Pepin -->
 <script type="text/javascript" src="assets/js/tabs.js"></script>
 <!-- END: Tabs Pepin -->
 <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<!-- BEGIN: JScolor -->
-<script src="assets/js/jscolor.js"></script>
-<!-- END: JScolor -->
-<!-- BEGIN: TAGINPUT -->
-<script src="assets/js/library/plugins/tagsInput/jquery.tagsinput.js"></script>
-<script src="assets/js/library/plugins/init.plugin.js"></script>
+<script src="assets/js/init.plugin.js"></script>
 <!-- END: TAGINPUT -->
-<script src="assets/js/library/markdown/dist/mdeditor.min.js"></script>
-<script>
-      var md = new MdEditor('#mdeditor', {
-        preview: false
-      });
-</script>
-<script src="assets/js/library/plugins/tooltipster/js/tooltipster.bundle.min.js"></script>
-<!-- COOKIE ALERT -->
 </body>
 </html>

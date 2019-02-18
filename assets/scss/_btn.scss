@@ -3,15 +3,52 @@
     font-family: OpenSansSemiBold;
     @include border-radius(4px 4px 4px 4px);
 }
-.btn-custom{
-    padding:1em 0;
+.btn-outline{
+    border-width: 1px;
+    border-style: solid;
+    &.btn-primary{
+        background-color:transparent;
+        color:$primary;
+        border-color:$primary;
+        &:hover{
+            background-color: $primary;
+            color:$white;
+        }
+    }
+    &.btn-secondary{
+        background-color:transparent;
+        color:$secondary;
+        border-color:$secondary;
+        &:hover{
+            background-color: $secondary;
+            color:$white;
+        }
+    }
+    &.btn-success{
+        background-color:transparent;
+        color:$success;
+        border-color:$success;
+        &:hover{
+            background-color: $success;
+            color:$white;
+        }
+    }
+    &.btn-danger{
+        background-color:transparent;
+        color:$danger;
+        border-color:$danger;
+        &:hover{
+            background-color: $danger;
+            color:$white;
+        }
+    }
 }
 .btn-success{
     background-color:$success;
     border-color: $success;
     color:$white;
     &:hover{
-        background-color:$successHover;
+        opacity: 0.9;
         color:$white;
     }
 }
@@ -24,12 +61,19 @@
     color:$white;
     border-color:$primary;
     &:hover{
-        background-color:$primaryHover;
-        border-color:$primary;
+        opacity: 0.9;
         color:$white;
     }
 }
-.btn-secondary{background-color:$secondary;border-color:$secondary;}
+.btn-secondary{
+    background-color:$secondary;
+    border-color:$secondary;
+    color:$white;
+    &:hover{
+        opacity: 0.9;
+        color:$white;
+    }
+}
 
 .btn-outline-primary{
     border-color:$primary;color:$primary;
@@ -41,6 +85,10 @@
     background-color:$danger;
     color:$white;
     border-color:$danger;
+    &:hover{
+        opacity: 0.9;
+        color:$white;
+    }
 }
 .btn-outline-danger{
     border-color:$danger;color:$danger;
