@@ -6,15 +6,10 @@
 <img src="https://img.shields.io/badge/KNACSS-framework-green.svg">
 </p>
 
-<<<<<<< HEAD
+
 
 # In development
 Nedax is currently under development, the deposit is available but note that the project is not completed.
-=======
-<p align="center">
-# In development
-</p>
->>>>>>> 81649cba98c1056b7eebc41a61945796a59d7283
 
 # Nedax Dashboard Template
 
