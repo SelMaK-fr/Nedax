@@ -489,6 +489,17 @@ ul, li, ol {
   border-radius: 4px 4px 4px 4px;
 }
 
+.admin-form .form-group [role="button"], .admin-form .form-group area, .admin-form .form-group input:not([type="range"]), .admin-form .form-group label, .admin-form .form-group select, .admin-form .form-group summary, .admin-form .form-group textarea {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 100%;
+  line-height: 3rem;
+}
+
+.admin-form .form-group label {
+  display: inline-block;
+}
+
 .admin-form .radio-group {
   margin: 0.5em 0;
 }
@@ -512,6 +523,67 @@ ul, li, ol {
 
 .admin-form .mdeditor_toolbar button {
   padding: 0;
+}
+
+/** Tags **/
+div.tagsinput {
+  border: 1px solid #CCC;
+  background: #FFF;
+  padding: 5px;
+  width: 350px;
+  height: 100px;
+  overflow-y: auto;
+}
+
+div.tagsinput span.tag {
+  border: 1px solid #00a0f0;
+  display: block;
+  float: left;
+  padding: 5px;
+  text-decoration: none;
+  background: #00a0f0;
+  color: #ffffff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-family: helvetica;
+  font-size: 13px;
+}
+
+div.tagsinput span.tag a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+div.tagsinput input {
+  width: 280px;
+  margin: 0px;
+  font-family: helvetica;
+  font-size: 13px;
+  border: 1px solid transparent;
+  padding: 5px;
+  background: transparent;
+  color: #000;
+  outline: 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+div.tagsinput div {
+  display: block;
+  float: left;
+}
+
+.tags_clear {
+  clear: both;
+  width: 100%;
+  height: 0px;
+}
+
+.not_valid {
+  background: #FBD8DB !important;
+  color: #90111A !important;
 }
 
 /** MEDIA QUERY DASHBOARD **/

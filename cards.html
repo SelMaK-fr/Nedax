@@ -21,6 +21,8 @@
 <link rel="stylesheet" href="assets/css/app.css">
 <!-- START::CSS_LAYOUT_THEME_ADMIN -->
 <link rel="stylesheet" href="assets/css/layout.css" type="text/css" media="screen">
+<!-- START::CSS_ATOM_ONE_DARK -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/default.min.css">
 </head>
 <body id="dashboard">
 <div class="site-wrapper">
@@ -30,7 +32,7 @@
             <div class="flex-container">
         <div class="header-logo w200p">
             <a href="#" class="header--icon" id="header--icon"></a>
-            <figure><img src="assets/img/logo_pro.png" alt="Logo du panel" title="Logo du panel"></figure>
+            <figure><img src="assets/img/logo_head.png" alt="Logo du panel" title="Logo du panel"></figure>
         </div>
                 <div class="txtright item-fluid">
                     <a class="btn btn-primary" href="#" title="My website"><i class="fas fa-globe"></i> My Website</a>
@@ -43,17 +45,17 @@
                 <nav class="navAdmin item-fluid">
                     <ul>
                         <li><a href="#" title="Home"><i class="fas fa-tachometer-alt"></i> Home</a></li>
-                        <li><a href="#" title="Forms"><i class="fas fa-cogs"></i> Forms <i class="fas fa-sort-down"></i></a>
+                        <li><a href="forms.html" title="Forms"><i class="fas fa-cogs"></i> Forms <i class="fas fa-sort-down"></i></a>
                             <ul class="item-sub-menu">
-                                <li><a href="#" title="Basic Form">Horizontal Form</a></li>
+                                <li><a href="form-horizontal.html" title="Basic Form">Horizontal Form</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" title="Cards"><i class="fas fa-greater-than-equal"></i> Cards </a></li>
-                        <li><a href="#" title="UI Elements"><i class="fas fa-briefcase"></i> UI Elements <span class="label label-success">new</span></a></li>
+                        <li><a href="cards.html" title="Cards"><i class="fas fa-greater-than-equal"></i> Cards </a></li>
+                        <li><a href="ui.html" title="UI Elements"><i class="fas fa-briefcase"></i> UI Elements <span class="label label-success">new</span></a></li>
                         <li><a href="#" title="Pages"><i class="fas fa-users"></i> Pages <i class="fas fa-sort-down"></i></a>
                             <ul class="item-sub-menu">
-                                <li><a href="#" title="Error 404">404</a></li>
-                                <li><a href="#" title="Blank page">Blank</a></li>
+                                <li><a href="404.html" title="Error 404">404</a></li>
+                                <li><a href="blank.html" title="Blank page">Blank</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -79,6 +81,7 @@
         </div>
     </section>
     
+    <!-- START .cards -->
     <section class="section--admin">
         <div class="container-fluid">
             <div class="admin-content">
@@ -99,7 +102,7 @@
                         <div class="ribbon"><span>Nouveau</span></div>
                         <div class="card-body txtcenter">
                                  <h4 class="header-title">Widget Rubban</h4>
-                                 Ardeo, mihi credite, Patres conscripti (id quod vosmet de me existimatis et facitis ipsi) 
+                                 Add class <code>.ribbon</code> and <code>span</code><br><br>
                                  incredibili quodam amore patriae, qui me amor et subvenire olim impendentibus periculis 
                                  maximis cum dimicatione capitis, et rursum, cum omnia tela undique esse intenta in patriam 
                                  viderem, subire coegit atque excipere unum pro universis. Hic me meus in rem publicam animus 
@@ -130,19 +133,29 @@
                     </div>
                     <!-- Widget 05 -->
                     <div class="card card--widget">
-                        <div class="ribbon"><span><svg class="svg-inline--fa fa-crown fa-w-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="crown" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg=""><path fill="currentColor" d="M528 448H112c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h416c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm64-320c-26.5 0-48 21.5-48 48 0 7.1 1.6 13.7 4.4 19.8L476 239.2c-15.4 9.2-35.3 4-44.2-11.6L350.3 85C361 76.2 368 63 368 48c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 15 7 28.2 17.7 37l-81.5 142.6c-8.9 15.6-28.9 20.8-44.2 11.6l-72.3-43.4c2.7-6 4.4-12.7 4.4-19.8 0-26.5-21.5-48-48-48S0 149.5 0 176s21.5 48 48 48c2.6 0 5.2-.4 7.7-.8L128 416h384l72.3-192.8c2.5.4 5.1.8 7.7.8 26.5 0 48-21.5 48-48s-21.5-48-48-48z"></path></svg><!-- <i class="fas fa-crown"></i> --> premium</span></div>
+                        <div class="ribbon"><span><i class="fas fa-crown"></i> premium</span></div>
                         <div class="card-body txtcenter">
                                  <h4 class="header-title">Widget 5</h4>
-                                 <div class="cb--icon strong">
-                                   2                             </div>
+                                 <div class="cb--icon strong">2</div>
                                    Nihil morati post haec militares avidi saepe turbarum adorti<br><br>
                                  <a class="btn btn-success" href="#">Intern Link</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- START full card -->
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Full card</h4>
+                        <pre><code class="html"><div class="ribbon"><span>title</span></div></code></pre>
+                    </div>
+                </div>
+                <!-- END full card -->
             </div>
         </div>
-    </section></main>
+    </section>
+    <!-- END .cards -->
+</main>
 <!-- Nedax:: end var content --> 
 <!-- Nedax:: start Copyright -->
 <footer class="footer--app txtcenter">
@@ -164,15 +177,13 @@
 </script>
 
 <!-- Nedax:: end GetFlashes -->
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <!-- BEGIN: Tabs Pepin -->
 <script type="text/javascript" src="assets/js/tabs.js"></script>
 <!-- END: Tabs Pepin -->
 <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<!-- BEGIN: JScolor -->
-<script src="assets/js/jscolor.js"></script>
-<!-- END: JScolor -->
 <!-- BEGIN: TAGINPUT -->
 <script src="assets/js/library/plugins/tagsInput/jquery.tagsinput.js"></script>
 <script src="assets/js/library/plugins/init.plugin.js"></script>
