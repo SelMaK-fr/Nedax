@@ -20,6 +20,8 @@ It was designed to administer small websites.
 Nedax est un thème admin pour site internet développé en HTML5 et CSS3. Il utilise le framework CSS Knacss.
 Il a été pensé pour administré des petits projets.
 
+[Demonstation](https://labs.synexo.fr/nedax/) - [French Support](https://support.synexo.fr/)
+
 ## Getting Started
 
 Nedax and SASS / SCSS
@@ -60,6 +62,33 @@ Add class `jscolor` to the input
 <input class="jscolor" type="text" name="name">
 ```
 
+#### Modal
+
+Html button   
+
+```html
+<button data-modal-trigger="mymodal" class="btn btn-primary">Open</button>
+```
+
+Html Modal   
+
+```html
+<div data-modal="mymodal" class="modal">
+<div class="content-wrapper">
+<button type="button" class="close"></button>
+<div class="modal-header">
+<h2>Title Modal</h2>
+</div>
+<div class="content">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi ea quo dolor commodi facere optio maxime quae velit earum natus ut, mollitia porro rerum. Culpa quo vero tempora eum!
+</div>
+<div class="modal-footer">
+<button type="submit" class="btn btn-primary">I Agree</button>
+</div>
+</div>
+</div>
+```
+
 ### Versions
 
 Nedax is currently in beta phase
@@ -78,6 +107,19 @@ b.2203.19
 ```
 
 - Correction HTML code (deleting the section tag)
+
+```
+b.1105.19
+```
+
+- Add Modal
+- Add Error page
+- Add Blank page
+- Add active class in navadmin menu
+- Correction li for breadcrumb navigation
+- Correction padding-bottom for app-content class
+- Update Font Awesome (5.8.2)
+
 
 ## Built With
 

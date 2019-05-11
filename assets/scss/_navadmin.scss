@@ -16,6 +16,7 @@
         display: inline-block;
         font-family: OpenSansSemiBold;
         padding:0 1em;
+        position: relative;
         a{
             color:#5b626b;
             text-transform: none;
@@ -36,6 +37,7 @@
             display:none;
             position:absolute;
             background-color:$primary;
+            left:0;
             li{
                 width: 200px;
                 display: block;
@@ -50,6 +52,13 @@
                         color:$primary;
                     }
                 }
+            }
+        }
+        &.active{
+            background-color:$primary;
+            color:#ffffff;
+            a{
+                color:#ffffff;
             }
         }
     }

@@ -10,11 +10,25 @@
         margin:0;
         li{
             display: inline-block;
-            padding:0 0.3em;
+            &:after{
+                content: '/';
+                padding:0 0.3em;
+            }
+            &:last-child{
+                &:after{
+                    content: '';
+                    padding:0;
+                }
+            }
         }
     }
-    .admin-content{
-
-
+}
+.error-page{
+    .error-icon{
+        font-size:14em;
+        color:#c5ced4;
+    }
+    h2{
+        font-family: OpenSansSemiBold
     }
 }

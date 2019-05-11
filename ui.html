@@ -41,13 +41,9 @@
                 <nav class="navAdmin item-fluid">
                     <ul>
                         <li><a href="index.html" title="Home"><i class="fas fa-tachometer-alt"></i> Home</a></li>
-                        <li><a href="forms.html" title="Forms"><i class="fas fa-cogs"></i> Forms <i class="fas fa-sort-down"></i></a>
-                            <ul class="item-sub-menu">
-                                <li><a href="form-horizontal.html" title="Basic Form">Horizontal Form</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="forms.html" title="Forms"><i class="fas fa-cogs"></i> Forms</a></li>
                         <li><a href="cards.html" title="Cards"><i class="fas fa-greater-than-equal"></i> Cards & Grid</a></li>
-                        <li><a href="ui.html" title="UI Elements"><i class="fas fa-briefcase"></i> UI Elements <span class="label label-success">new</span></a></li>
+                        <li class="active"><a href="ui.html" title="UI Elements"><i class="fas fa-briefcase"></i> UI Elements <span class="label label-success">new</span></a></li>
                         <li><a href="#" title="Pages"><i class="fas fa-users"></i> Pages <i class="fas fa-sort-down"></i></a>
                             <ul class="item-sub-menu">
                                 <li><a href="404.html" title="Error 404">404</a></li>
@@ -70,8 +66,7 @@
                 <div class="col txtright">
                     <ul>
                         <li>Home</li>
-                        <li>/</li>
-                        <li>Grid</li>
+                        <li>UI Elements</li>
                     </ul>
                 </div>
             </div>
@@ -125,6 +120,32 @@
                                         </p>
                                     </div>
                                 </div>
+                                <!-- MODAL-->
+                                <div class="card">
+                                    <div class="card-body">
+                                            <h4>Modal</h4>
+                                            <code>_modal.scss</code><br><br>
+                                        <p>  
+                                            <button data-modal-trigger="mymodal" class="btn btn-primary">Open</button>
+                                        </p>
+                                            <!-- start:modal -->
+                                            <div data-modal="mymodal" class="modal">
+                                                <div class="content-wrapper">
+                                                    <button type="button" class="close"></button>
+                                                    <div class="modal-header">
+                                                        <h2>Title Modal</h2>
+                                                    </div>
+                                                    <div class="content">
+                                                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente quasi ea quo dolor commodi facere optio maxime quae velit earum natus ut, mollitia porro rerum. Culpa quo vero tempora eum!
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="submit" class="btn btn-primary">I Agree</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end:modal -->
+                                    </div>
+                                </div>
                             </div>
                             <div class="col">
                                 <div class="card">
@@ -171,6 +192,7 @@
 </div> <!-- /wrapper -->      
 </div> <!-- /site-wrapper -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+<script src="assets/js/init.plugin.js"></script>
 </body>
 </html>
